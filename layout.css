@@ -1,22 +1,18 @@
 header{
   width: 480px;
   height: 75px;
-  clear:both;
 }
 nav{
   width: 480px;
   height: 150px;
-  clear: both;
 }
 main{
   width: 480px;
   height: 830px;
-  clear: both;
 }
 section{
   width: 480px;
   height: 125px;
-  clear: both;
 }
 div  {
   width: 240px;
@@ -28,9 +24,7 @@ footer{
   height: 80px;
   clear: both;
 }
-#f{
-  clear: right;
-}
+
 @media screen and (min-width: 768px){ 
   header{
     width: 960px;
@@ -41,26 +35,27 @@ footer{
     width: 200px;
     height: 600px;
     float: left;
-    clear: left;
   }
   main{
-    width: 480px;
-    height: 830px;
-    clear: both;
+    width: 760px;
+    height: 600px;
+    float:left;
   }
   section{
-    width: 480px;
-    height: 125px;
-    clear: both;
+    width: 380px;
+    height: 200px;
+    float:left;
+  }
+  #d{
+    clear: right;
   }
   div  {
-    width: 240px;
+    width: 190px;
     height: 250px;
     float: left;
   }
   footer{
-    width: 480px;
-    height: 80px;
-    clear: both;
+    width: 760px;
+    height: 150px;
   }
 }  

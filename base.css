@@ -1,6 +1,7 @@
 *{
   outline: 1px solid rgb(0,0,0);
   text-align: center;
+  border:none;
 }  
 html{
   background-color: rgb(255,255,255);
@@ -11,7 +12,7 @@ html{
 body{
   width:480px;
   height: 1055px;
-  margin:auto;
+  margin: auto;
 }
 
 @media screen and (min-width: 768px){ 
