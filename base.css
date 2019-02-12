@@ -1,0 +1,23 @@
+*{
+  outline: 1px solid rgb(0,0,0);
+  text-align: center;
+}  
+html{
+  background-color: rgb(255,255,255);
+  outline:none;
+  height: 100%;
+  width: 100%;
+}
+body{
+  width:480px;
+  height: 1055px;
+  margin:auto;
+}
+
+@media screen and (min-width: 768px){ 
+
+  body{
+    width:960px;
+    height:700px;
+  }
+}
