@@ -1,0 +1,67 @@
+p{
+  outline:none;  
+  position:relative;
+  top: 40%;
+  margin:0px;
+} 
+body{
+  background-color: rgb(126, 30, 30);
+}
+header{
+  background-color: rgb(156, 150, 150);
+}
+nav{
+  background-color: rgb(255, 0, 0);
+}
+#c{
+  background-color: rgb(238, 255, 0);
+}
+#d{
+  background-color: rgb(60, 255, 0);
+}
+#e{
+  background-color: rgb(0, 238, 255);
+}
+#f{
+  background-color: rgb(153, 0, 255);
+}
+#g{
+  background-color: rgb(255, 0, 200);
+}
+#h{
+  background-color: rgb(214, 111, 125);
+}
+footer{
+  background-color: rgb(255, 136, 0);
+
+}
+@media screen and (min-width: 768px){
+  header{
+    background-color: rgb(47, 47, 47);
+  }
+  nav{
+    background-color: rgb(253, 84, 84);
+  }
+  #c{
+    background-color: rgb(81, 86, 2);
+  }
+  #d{
+    background-color: rgb(75, 110, 65);
+  }
+  #e{
+    background-color: rgb(89, 144, 148);
+  }
+  #f{
+    background-color: rgb(102, 25, 153);
+  }
+  #g{
+    background-color: rgb(112, 1, 88);
+  }
+  #h{
+    background-color: rgb(250, 204, 210);
+  }
+  footer{
+    background-color: rgb(109, 58, 1);
+  
+  }
+}

@@ -1,0 +1,61 @@
+header{
+  width: 480px;
+  height: 75px;
+}
+nav{
+  width: 480px;
+  height: 150px;
+}
+main{
+  width: 480px;
+  height: 830px;
+}
+section{
+  width: 480px;
+  height: 125px;
+}
+div  {
+  width: 240px;
+  height: 250px;
+  float: left;
+}
+footer{
+  width: 480px;
+  height: 80px;
+  clear: both;
+}
+
+@media screen and (min-width: 768px){ 
+  header{
+    width: 960px;
+    height: 100px;
+    clear:both;
+  }
+  nav{
+    width: 200px;
+    height: 600px;
+    float: left;
+  }
+  main{
+    width: 760px;
+    height: 600px;
+    float:left;
+  }
+  section{
+    width: 380px;
+    height: 200px;
+    float:left;
+  }
+  #d{
+    clear: right;
+  }
+  div  {
+    width: 190px;
+    height: 250px;
+    float: left;
+  }
+  footer{
+    width: 760px;
+    height: 150px;
+  }
+}  
