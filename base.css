@@ -9,16 +9,24 @@ html{
   height: 100%;
   width: 100%;
 }
-body{
-  width:480px;
-  height: 1055px;
-  margin: auto;
-}
 
+body{
+  width:100vw;
+  height: 219vw;
+  margin: auto;
+  
+}
+@media screen and (min-width:480){
+  body{
+    width: 100vw;
+  }
+}
 @media screen and (min-width: 768px){ 
 
   body{
     width:960px;
     height:700px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }

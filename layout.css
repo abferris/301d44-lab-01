@@ -1,31 +1,33 @@
 header{
-  width: 480px;
-  height: 75px;
+  width: 100vw;
+  height: 15.625vw;
 }
 nav{
-  width: 480px;
-  height: 150px;
+  width: 100vw;
+  height: 31.25vw;
 }
 main{
-  width: 480px;
-  height: 830px;
+  width: 100vw;
+  height: 172vw;
+  display:flex;
+  flex-wrap: wrap;
 }
 section{
-  width: 480px;
-  height: 125px;
+  width: 100%;
+  height: 15.06%;
 }
 div  {
-  width: 240px;
-  height: 250px;
-  float: left;
+  width: 50%;
+  height: 30.12%;
 }
 footer{
-  width: 480px;
-  height: 80px;
+  width: 100%;
+  height: 9.64%;
   clear: both;
 }
 
 @media screen and (min-width: 768px){ 
+  
   header{
     width: 960px;
     height: 100px;
