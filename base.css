@@ -16,16 +16,22 @@ body{
   margin: auto;
   
 }
-/* @media screen and (min-width:480){
+@media screen and (min-width:480px){
   body{
     width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
   }
-} */
+}
 @media screen and (min-width: 768px){ 
 
   body{
-    width:960px;
-    height:700px;
+    width: 80vw;
+    min-width:960px;
+    height:58.33vw;
+    min-height:700px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
   }
