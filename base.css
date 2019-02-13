@@ -16,11 +16,11 @@ body{
   margin: auto;
   
 }
-@media screen and (min-width:480){
+/* @media screen and (min-width:480){
   body{
     width: 100vw;
   }
-}
+} */
 @media screen and (min-width: 768px){ 
 
   body{
